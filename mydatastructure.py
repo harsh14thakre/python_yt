@@ -88,10 +88,47 @@
 
 #-> Find the greatest element and print its index too.
 
-l=[2,1,3,4,5,66,97,2]
-largest=0
+# l=[2,1,3,4,5,66,97,2]
+# largest=l[0]
+# index=0
 
-for i in range(len(l)):
-    if largest<l[i]:
-        largest=l[i]
-print(f'The largest element is {largest} with index number {i}')        
+# for i in range(len(l)):
+#     if largest<l[i]:
+#         largest=l[i]
+#         index=i
+# print(f'The largest element is {largest} with index number {index}')        
+
+
+# -----------------------------------------------------------------------------------------------
+
+# -> Find the second largest number
+
+# l=[12,54,2,6,8,9,4,74,5,1]
+
+# largest=l[0]
+# sec_largest=l[0]
+
+# for i in l:
+#     if i>largest:
+#         sec_largest=largest
+#         largest=i
+#     elif i>sec_largest:
+#         sec_largest=i
+
+# print(sec_largest,largest)            
+
+#--------------------------------------------------------------------------------------------------
+
+#-> Check if list is sorted or not.
+
+# a=[12,54,2,6,8,9,4,74,5,1]
+
+# for i in range(len(a)-1):
+#     if a[i]<a[i+1]:
+#         continue
+#     else:
+#         print("Your list is not sorted")
+#         break
+# else:
+#     print("Your list is sorted") 
+

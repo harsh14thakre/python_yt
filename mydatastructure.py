@@ -132,3 +132,29 @@
 # else:
 #     print("Your list is sorted") 
 
+#----------------------------------------TUPLE----------------------------------------------------
+
+# TUPLE POWERS=()
+
+# Immutable- Tuples are not mutable you cannot change the values of tuple.
+# Duplicates- You can have duplicate values in tuple   
+# Ordered- Set are ordered and you can access them through index values
+#  Heterogenious- Set also have heterogenious nature and can have different types of data structure intuple.
+
+# ---------------------------------------SETS------------------------------------------------------
+
+# SETS={1,2,3,4,5}
+
+# Mutable-Sets are mutable youcan change the values of set.
+# Duplicates-You cannot have any duplicate values in set That means every element will be unique.
+# Unordered-Sets are unordered and you cannot access them through index values.
+# Heterogeneous-Set is a semi-heterogenous it can store some data types like string,numbers,tuples but not everything.
+
+#--------------------------------------DICTIONARY--------------------------------------------------
+
+# DICTIONARY={1:"hello"}
+
+# Mutable- Dictionaries are mutable meaning you can change add or remove key value pairs after creation.
+# Duplicates- Keys must be unique but you can have duplicates in values.
+# Order- Dictionary follows insertion order.
+# Heterogeneous- A dictionary can store different types of keys and values like integers strings lists or even another dictionary.

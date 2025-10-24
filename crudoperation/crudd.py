@@ -8,7 +8,6 @@ def readfileandfolder():
         print(f"{i+1} : {items}")
 
 
-
 def createfile():
     try:
 

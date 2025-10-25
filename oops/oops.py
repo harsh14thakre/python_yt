@@ -30,8 +30,7 @@
 #     def __init__(self,material,zips,pockets):
 #         self.material = material
 #         self.zips = zips
-#         self.pockets = pockets
-
+ 
 #     def show(self):
 #         print(f"Your object details are {self.material},{self.pockets},{self.zips}")
 
@@ -45,3 +44,32 @@
 #------------------------------------------Attributes------------------------------------------------
 
 # -> Attributes are just variable defined under the class
+
+# types of attribute:-
+# 1-> Class attribute
+# 2-> Instance attribute
+
+#  Types of method:-
+# 1-> instance method
+# 2-> Class method
+
+class Animal:
+    name = "Lion"  #class attribute
+
+    def __init__(self,age):
+        self.age = age   #instance attribute
+
+    def show(self):   #Instanca method
+        print(f"How are you your age is {self.age}")
+
+    @classmethod
+    def hello(cls):
+        print("How are you brother")
+
+    @staticmethod
+    def static():
+        print("How are you")
+
+obj = Animal(12)
+obj.show()
+obj.hello()

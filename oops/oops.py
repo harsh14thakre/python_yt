@@ -53,23 +53,45 @@
 # 1-> instance method
 # 2-> Class method
 
-class Animal:
-    name = "Lion"  #class attribute
+# class Animal:
+#     name = "Lion"  #class attribute
 
-    def __init__(self,age):
-        self.age = age   #instance attribute
+#     def __init__(self,age):
+#         self.age = age   #instance attribute
 
-    def show(self):   #Instanca method
-        print(f"How are you your age is {self.age}")
+#     def show(self):   #Instanca method
+#         print(f"How are you your age is {self.age}")
 
-    @classmethod
-    def hello(cls):
-        print("How are you brother")
+#     @classmethod
+#     def hello(cls):
+#         print("How are you brother")
 
-    @staticmethod
-    def static():
-        print("How are you")
+#     @staticmethod
+#     def static():
+#         print("How are you")
 
-obj = Animal(12)
-obj.show()
-obj.hello()
+# obj = Animal(12)
+# obj.show()
+# obj.hello()
+
+
+#--------------------------------------------INHERITANCE-----------------------------------------------
+
+# class Factorymumbai:   # Parent class / superclass
+#     a = "I am an attribute mentioned inside factory"
+#     def hello(self):
+#         print("Hello I am a method mentioned in Factory")
+
+# class Factorypune(Factorymumbai):   #child class
+#     pass
+
+# obj = Factorymumbai()
+
+# obj2 = Factorypune()
+
+# obj2.hello()
+
+#------------------------------------------------------------------------------------------------------
+
+
+

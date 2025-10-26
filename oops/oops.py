@@ -94,4 +94,45 @@
 #------------------------------------------------------------------------------------------------------
 
 
+# class Animal:
+#     def __init__(self,name):
+#         self.name = name
+
+#     def show(self):
+#         print(f"Hello your name is {self.name}")
+
+# class Human(Animal):
+#     pass
+
+# animal1 = Animal("Lion")
+# person1 = Human("Harsh")
+
+# person1.show()
+# animal1.show()
+
+#----------------------------------------------------------------------------------------------------
+
+
+class Animal:
+    def __init__(self,name):
+        self.name = name
+
+    def show(self):
+        print(f"Hello your name is {self.name}")
+
+class Human(Animal):
+    def __init__(self, name,age):
+        super().__innit__(name)
+        self.age = age
+
+    def show(self):
+        print(f"Hello your name is {self.name},{self.age}")
+
+
+animal1 = Animal("Lion")
+person1 = Human("Harsh",21)
+
+animal1.show()
+
+
 

@@ -113,26 +113,65 @@
 #----------------------------------------------------------------------------------------------------
 
 
-class Animal:
-    def __init__(self,name):
-        self.name = name
+# class Animal:
+#     def __init__(self,name):
+#         self.name = name
 
-    def show(self):
-        print(f"Hello your name is {self.name}")
+#     def show(self):
+#         print(f"Hello your name is {self.name}")
 
-class Human(Animal):
-    def __init__(self, name,age):
-        super().__innit__(name)
-        self.age = age
+# class Human(Animal):
+#     def __init__(self, name,age):
+#         super().__innit__(name)
+#         self.age = age
 
-    def show(self):
-        print(f"Hello your name is {self.name},{self.age}")
+#     def show(self):
+#         print(f"Hello your name is {self.name},{self.age}")
 
 
-animal1 = Animal("Lion")
-person1 = Human("Harsh",21)
+# animal1 = Animal("Lion")
+# person1 = Human("Harsh",21)
 
-animal1.show()
+# animal1.show()
 
+#------------------------------------------------------------------------------------------------------
+
+#-------------------------------MULTIPLE INHERITANCE--------------------------------------------------
+
+# class Animal:
+#     def __init__(self,name):
+#         pass
+
+# class Human:
+#     def __init__(self,name,age):
+#         pass
+# class Robots(Human,Animal):
+#     name3 = "charli123"       
+
+# obj = Robots()
+# print(obj.name3) 
+
+#-----------------------------------------------------------------------------------------------------
+
+#---------------------------------MULTILEVEL INHERITANCE----------------------------------------------
+
+class Factory:
+    def __init__(self,material,zips):
+        self.material = material
+        self.zips = zips
+
+class BhopalFactory(Factory):
+    def __init__(self, material, zips,color):
+        super().__init__(material, zips)
+        self.color = color
+
+class PuneFactory(BhopalFactory):
+    def __init__(self, material, zips, color,pockets):
+        super().__init__(material, zips, color)        
+        self.pockets = pockets
+
+obj = PuneFactory()        
+
+#-----------------------------------------------------------------------------------------------------
 
 
